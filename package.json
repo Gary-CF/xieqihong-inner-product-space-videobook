@@ -1,0 +1,21 @@
+{
+  "name": "xie-qihong-ch09-book",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "preview": "node scripts/serve.mjs",
+    "check": "node scripts/check.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "katex": "0.16.22",
+    "markdown-it": "14.1.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.56.1"
+  }
+}
