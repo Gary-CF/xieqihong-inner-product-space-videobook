@@ -2,7 +2,7 @@
 
 本人一直对谢帅高代第9章中揭示的优美结构十分感兴趣，觉得有很多值得深挖的东西，但是总是容易忘记或者说没有时间整理。如今借助硅基助手做了一个基于视频板书整理的网页，感兴趣的同侪可以一起参考学习。
 
-[在线阅读](https://gary-cf.github.io/xie-qihong-ch09-book/) · [全章讲义](https://gary-cf.github.io/xie-qihong-ch09-book/book.html) · [总结与速查](https://gary-cf.github.io/xie-qihong-ch09-book/book.html#summary)
+[在线阅读](https://gary-cf.github.io/xieqihong-inner-product-space-videobook/) · [全章讲义](https://gary-cf.github.io/xieqihong-inner-product-space-videobook/book.html) · [总结与速查](https://gary-cf.github.io/xieqihong-inner-product-space-videobook/book.html#summary)
 
 ## 内容
 
