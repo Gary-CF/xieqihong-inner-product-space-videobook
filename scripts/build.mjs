@@ -47,5 +47,6 @@ const search=sections.flatMap(s=>{
  return headings.map((h,i)=>({title:(i?s.title+' · ':'')+h[1],id:h[2],text:s.src.slice(h.index,(headings[i+1]?.index??s.src.length)).replace(/<!--[\s\S]*?-->/g,'').replace(/<[^>]*>/g,' ').replace(/\{#[^}]+\}/g,'')}));
 });
 await fs.writeFile(path.join(out,'assets/search-data.js'),'window.BOOK_SEARCH='+JSON.stringify(search)+';');
+await fs.cp(path.join(root,'public'),out,{recursive:true});
 await fs.writeFile(path.join(root,'editorial/build-result.json'),JSON.stringify({chapters:sections.length,mathCount,files,success:true},null,2));
 console.log('Built '+sections.length+' chapters; '+mathCount+' math expressions; local assets → dist/');

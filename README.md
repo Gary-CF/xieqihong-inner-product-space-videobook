@@ -4,6 +4,12 @@
 
 [在线阅读](https://gary-cf.github.io/xieqihong-inner-product-space-videobook/) · [全章讲义](https://gary-cf.github.io/xieqihong-inner-product-space-videobook/book.html) · [总结与速查](https://gary-cf.github.io/xieqihong-inner-product-space-videobook/book.html#summary)
 
+## 高代主题博客初稿
+
+[在线阅读《代数对几何问题的抽象与探测》](https://gary-cf.github.io/xieqihong-inner-product-space-videobook/blog/algebra-geometry/)
+
+这是一份在 AI 辅助下完成的高代主题博客初稿，可以供学习参考。内容围绕线性空间、基、内积、谱结构与矩阵分解展开，仍可能存在疏漏，欢迎交流与指正。
+
 ## 内容
 
 按第9章的正式节序，将课程整理为可连续阅读的图文讲义，保留概念引入、证明路线、例子和几何解释，并附集中总结与核心 Cheatsheet。
@@ -47,8 +53,11 @@ npm run preview
 | web/style.css | 字号、颜色、间距及响应式布局 |
 | web/app.js | 搜索与图片放大交互 |
 | scripts/build.mjs | 首页、导航与静态构建 |
+| public/blog/algebra-geometry/index.html | 高代主题博客初稿的独立网页 |
 
 修改源文件后，重新运行 npm run build，再刷新页面。dist 是自动生成的目录，直接修改其中的文件会在下一次构建时被覆盖。
+
+博客网页保留离线版的完整排版，公式、字体和图示均已内嵌。更新博客时，替换 public/blog/algebra-geometry/index.html 后重新构建；public 目录会随电子书一起发布。
 
 正文数学使用行内公式 \(...\) 和独立公式 \[...\]，采用内积第一变量线性的约定。修改公式时请留意实、复数域及相关定理条件。
 

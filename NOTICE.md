@@ -11,3 +11,5 @@
 第三方软件（包括 KaTeX、Markdown-it 和测试工具）按各自许可证使用。KaTeX 的许可证随构建产物复制至 assets/katex/LICENSE。
 
 如发现内容错误或有关于所引用材料的权利问题，请通过仓库 Issues 联系维护者。
+
+高代主题博客《代数对几何问题的抽象与探测》是作者提供的 AI 辅助初稿，供学习参考；博客正文与图示不包含在本项目的代码 MIT 授权范围内。独立网页中的 KaTeX 和 Noto Sans SC 字体分别遵循 MIT 与 SIL Open Font License，许可证随博客页面一并发布。
